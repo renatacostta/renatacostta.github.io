@@ -57,5 +57,9 @@ body {
     text-align: center;
 }
 .head img {
-    margin: 5px auto 5px auto;
+    margin: 0 auto;
+    border-image-width: 0;
+}
+.desc {
+    margin: 15px auto 0 auto;
 }
