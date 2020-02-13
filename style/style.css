@@ -54,5 +54,74 @@ body {
 }
 .head {
     margin: 0;
-    text-align: center;
+}
+.date {
+	background-color: #ffe0ce;
+	margin: 20px 0 0 0;
+	overflow: hidden;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+}
+.horario {
+	width: 68%;
+	float: right;
+	height: auto;
+	display: flex;
+	align-items: center;
+}
+p {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	font-size: 5vmin;
+}
+.map {
+	background-color: #ffe0ce;
+	margin: 20px 0 0 0;
+	overflow: hidden;
+	padding: 15px 0;
+}
+.mapTitle {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 10px;
+}
+.social {
+	background-color: #ffe0ce;
+	margin: 20px 0 0 0;
+	overflow: hidden;
+	padding: 15px 0;
+	display: block;
+	justify-content: center;
+}
+.socialLink {
+	width: 100%;
+	text-align: center;
+}
+.socialTitle > p {
+	text-align: center;
+}
+.socialTitle {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 10px;
+}
+.footer {
+	background-color: #ffe0ce;
+	margin: 20px 0 0 0;
+	overflow: hidden;
+	padding: 15px 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.footer > p{
+	font-size: 12px;
+	font-size: 3vmin;
+	text-align: center;
 }
