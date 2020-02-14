@@ -50,14 +50,20 @@ table {
 /* FIM RESET */
 
 body {
-    background-color: #fff;
+    background-color: #ffe0ce;
 }
 .head {
-    margin: 0;
+	margin: 0;
+}
+.space {
+	background-color: #fff;
+	height: 30px;
+	width: 100%;
+	border-radius: 0 0 20px 20px;
 }
 .date {
 	background-color: #ffe0ce;
-	margin: 20px 0 0 0;
+	margin: 0;
 	overflow: hidden;
 	padding: 0;
 	display: flex;
